@@ -9,7 +9,7 @@ using UnityEngine.EventSystems;
 
 namespace LCTerminalGames
 {
-    class TerminalGame
+    public class TerminalGame
     {
         public string name;
         public string description;
@@ -29,7 +29,7 @@ namespace LCTerminalGames
         }
     }
     [HarmonyPatch(typeof(Terminal), "Start", MethodType.Normal)]
-    internal class TerminalGames
+    public class TerminalGames
     {
         public static List<TerminalGame> games = new List<TerminalGame>();
         internal static void Postfix(Terminal __instance)
