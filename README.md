@@ -1,2 +1,2 @@
-# LCTerminalGamesLib
-A Lethal Company library to allow users to create interactive games on the terminal
+# LethalCompanyTemplate
+A template for a BepInEx 5 Plugin, using the correct .csproj configuration for Lethal Company modding
